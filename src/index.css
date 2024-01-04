@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Saffar";
+  font-weight: 400;
+} */
+
+.saffar {
+  font-family: Saffar;
+  src: url("./assets/fonts/Saffar\ Regular.otf") format("otf"),
+    url("./assets/fonts/Saffar\ Regular.otf") format("otf");
+}
+.saffar-light {
+  font-family: Saffar;
+  src: url("./assets/fonts/SaffarLight\ Italic.otf");
+}

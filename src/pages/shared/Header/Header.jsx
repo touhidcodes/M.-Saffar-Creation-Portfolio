@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logo from "../../../assets/images/logo main.png";
 
 const Header = () => {
   const [close, setClose] = useState(false);
@@ -25,32 +26,39 @@ const Header = () => {
   };
 
   return (
-    <div className=" bg-[#1d1e1f]">
-      <div className="navbar  text-white mx-auto max-w-screen-xl">
+    <div className="bg-[#171717]">
+      <div className="navbar text-white mx-auto max-w-screen-xl">
         <div className="navbar-start">
           {/* TODO: Name should be regular font */}
-          <a className="btn btn-ghost normal-case text-2xl font-light">
-            <span className="font-bold"> M. Saffar </span>Creation
+          <a className="btn btn-ghost uppercase text-3xl font-light text-yellow-500">
+            <img src={logo} alt="" className="w-10 mr-3" />
+            <span className="font-bold"> M. Saffar </span>
+            Creation
           </a>
-          <div className="relative">
+          {/* <div className="relative">
             <div className="badge badge-outline text-green-600 rounded-md p-3 font-semibold">
               AVAILABLE
             </div>
             <div className=" absolute -top-1 -right-1">
               <div className="bg-green-700 w-3 h-3 rounded-full"></div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="navbar-end">
           <div className=" hidden lg:flex">
             <ul className="menu menu-horizontal px-1 text-xl">
               {navOptions}
               <button className="btn btn-ghost font-regular">
-                <p className=" badge  text-white bg-opacity-10 rounded-md p-5 text-lg chillax font-extralight">
+                <p className=" badge  text-black bg-yellow-500 rounded-md p-4 text-lg chillax font-light">
                   LET'S TALK
                 </p>
               </button>
             </ul>
+          </div>
+          <div className="avatar online">
+            <div className="w-8 rounded-full">
+              <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+            </div>
           </div>
           {/* Dropdown Menu */}
           <div className="dropdown  dropdown-open dropdown-end">
