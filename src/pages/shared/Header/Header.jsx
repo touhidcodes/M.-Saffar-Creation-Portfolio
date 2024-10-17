@@ -35,14 +35,6 @@ const Header = () => {
             <span className="font-bold"> M. Saffar </span>
             Creation
           </a>
-          {/* <div className="relative">
-            <div className="badge badge-outline text-green-600 rounded-md p-3 font-semibold">
-              AVAILABLE
-            </div>
-            <div className=" absolute -top-1 -right-1">
-              <div className="bg-green-700 w-3 h-3 rounded-full"></div>
-            </div>
-          </div> */}
         </div>
         <div className="navbar-end">
           <div className=" hidden lg:flex">
@@ -55,11 +47,7 @@ const Header = () => {
               </button>
             </ul>
           </div>
-          <div className="avatar online">
-            <div className="w-8 rounded-full">
-              <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-            </div>
-          </div>
+
           {/* Dropdown Menu */}
           <div className="dropdown  dropdown-open dropdown-end">
             <label className="btn btn-ghost lg:hidden swap swap-rotate">
