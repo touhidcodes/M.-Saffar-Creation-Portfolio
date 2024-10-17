@@ -35,15 +35,7 @@ const Home = () => {
               molestias maiores ab numquam magni neque. Aut quae repellendus
               maxime architecto aliquam omnis nesciunt impedit error iusto et
               est officiis accusantium esse quis, facere delectus sint
-              temporibus animi ut earum! Maiores neque aliquam, distinctio magni
-              error vero odio corrupti totam, optio quas dolor deserunt illum
-              minima aperiam fugit recusandae est incidunt excepturi, sunt iusto
-              dignissimos quasi suscipit asperiores dolorum. Placeat porro
-              debitis dignissimos labore, odit, praesentium asperiores neque
-              error modi molestiae illo. Labore nihil odio error impedit
-              debitis. Sit itaque a voluptates rem reprehenderit earum, tempore
-              id officiis, debitis dolorem corporis ut nobis impedit illum?
-              Ipsum fugiat enim accusamus aspernatur, quos expedita?
+              temporibus animi ut earum!
             </p>
           </div>
         </div>
