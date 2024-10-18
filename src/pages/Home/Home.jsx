@@ -13,7 +13,7 @@ const Home = () => {
               className="w-56 h-56 rounded-full m-auto mt-6"
             />
             <h1 className="uppercase text-center mt-10 text-4xl font-bold underline">
-              M. saffar
+              M. saffar Creations
             </h1>
             <div className="text-xl font-semibold my-5 text-right mr-12">
               <h4>Graphic Designer &</h4>
@@ -29,13 +29,7 @@ const Home = () => {
               Perferendis nemo voluptatum, vel, est mollitia accusantium vero
               nisi corporis quo, ipsam numquam veritatis at nulla dolore modi
               optio molestias. Aspernatur dolor eius rem magnam eum distinctio
-              numquam quaerat aperiam animi maxime, natus placeat assumenda
-              officia vitae voluptatem consequuntur corporis doloremque, non
-              consequatur neque? Modi dolorum ipsam non tenetur veritatis
-              molestias maiores ab numquam magni neque. Aut quae repellendus
-              maxime architecto aliquam omnis nesciunt impedit error iusto et
-              est officiis accusantium esse quis, facere delectus sint
-              temporibus animi ut earum!
+              numquam quaerat aperiam animi maxime!
             </p>
           </div>
         </div>
