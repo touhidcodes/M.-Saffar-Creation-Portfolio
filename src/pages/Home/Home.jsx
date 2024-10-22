@@ -12,7 +12,7 @@ const Home = () => {
               alt=""
               className="w-56 h-56 rounded-full m-auto mt-6"
             />
-            <h1 className="uppercase text-center mt-10 text-4xl font-bold underline">
+            <h1 className="uppercase text-center mt-10 text-2xl font-bold ">
               M. saffar Creations
             </h1>
             <div className="text-xl font-semibold my-5 text-right mr-12">
@@ -33,7 +33,7 @@ const Home = () => {
         </div>
         <div className="col-span-5 my-10 mr-10 text-center">
           <PageTitle title="Portfolio" />
-          <a href="https://git.io/typing-svg" className="text-center">
+          <a href="https://git.io/typing-svg">
             <img
               src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&random=false&width=435&lines=M.+Saffar+Creation"
               alt="Typing SVG"
