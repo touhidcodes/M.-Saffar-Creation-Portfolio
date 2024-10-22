@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="bg-[#171717]">
       <footer className="footer p-10 text-white mx-auto max-w-screen-xl">
         <div>
-          <p className="text-3xl chillax font-light">M. Safar creations</p>
+          <p className="text-3xl chillax font-light">M. Saffar creations</p>
           {/* TODO: Insert logo here */}
           <svg
             width="50"

@@ -31,9 +31,9 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className="col-span-5 bg-[#171717] my-10 mr-10 text-center">
+        <div className="col-span-5 my-10 mr-10 text-center">
           <PageTitle title="Portfolio" />
-          <a href="https://git.io/typing-svg">
+          <a href="https://git.io/typing-svg" className="text-center">
             <img
               src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&random=false&width=435&lines=M.+Saffar+Creation"
               alt="Typing SVG"
