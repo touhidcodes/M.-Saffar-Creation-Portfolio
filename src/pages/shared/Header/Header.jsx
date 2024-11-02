@@ -6,13 +6,13 @@ const Header = () => {
   const navOptions = (
     <>
       <li>
-        <a>Item 1</a>
+        <a>My Work</a>
       </li>
       <li>
-        <a>Parent</a>
+        <a>Services</a>
       </li>
       <li>
-        <a>Item 3</a>
+        <a>Resume</a>
       </li>
     </>
   );
@@ -26,7 +26,7 @@ const Header = () => {
   };
 
   return (
-    <div className="bg-[#171717]">
+    <div className="">
       <div className="navbar text-white mx-auto max-w-screen-xl">
         <div className="navbar-start">
           {/* TODO: Name should be regular font */}
@@ -38,11 +38,11 @@ const Header = () => {
         </div>
         <div className="navbar-end">
           <div className=" hidden lg:flex">
-            <ul className="menu menu-horizontal px-1 text-xl">
+            <ul className="menu menu-horizontal px-1 text-xl text-black">
               {navOptions}
               <button className="btn btn-ghost font-regular">
                 <p className=" badge  text-black bg-yellow-500 rounded-md p-4 text-lg chillax font-light">
-                  LET'S TALK
+                  Start New Project
                 </p>
               </button>
             </ul>
